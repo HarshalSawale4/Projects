@@ -1,4 +1,4 @@
-/* #include<stdio.h>
+#include<stdio.h>
 
 void add(){
     int a,b,sum;
@@ -64,18 +64,6 @@ int main(){
         }
 
     } while (choice != 5);
-
-    
+   
 }
-*/
-#include <stdio.h>
 
-int main() {
-    // URL of the imageh
-    const char *image= "";
-    
-    // Display the URL
-    printf("Image URL: %s\n", image_url);
-    
-    return 0;
-}
