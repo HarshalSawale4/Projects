@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void add(){
-    int a,b,;
+    int a,b;
     cout<<"Enter num1 =";
     cin>>a;
     cout<<"Enter num2 =";
