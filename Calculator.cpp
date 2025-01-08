@@ -1,44 +1,39 @@
 #include<iostream>
 using namespace std;
-
 void add(){
-    int a,b,sum;
+    int a,b,;
     cout<<"Enter num1 =";
     cin>>a;
     cout<<"Enter num2 =";
     cin>>b;
-    sum= a+b;
-    cout<<"Your addition is \n",sum;
+    cout<<"Your addition is \n",a+b;
 }
 
 void sub(){
-     int a,b,sum;
+     int a,b;
     cout<<"Enter num1 =";
     cin>>a;
     cout<<"Enter num2 =";
     cin>>b;
-    sum= a-b;
-    cout<<"Your substraction is =\n"<< sum <<endl;
+    cout<<"Your substraction is =\n"<<a-b <<endl;
 } 
 
 void mul(){
-    int a,b,sum;
+    int a,b;
     cout<<("Enter num1 =");
     cin>>a;
     cout<<"Enter num2 =";
     cin>>b;
-    sum= a*b;
-    cout<<"Your multiplication is = \n"<<sum <<endl;
+    cout<<"Your multiplication is = \n"<<a*b<<endl;
 }
 
 void division(){
-    int a,b,sum;
+    int a,b;
     cout<<("Enter num1 =");
     cin>>a;
     cout<<"Enter num2 =";
     cin>>b;
-    sum= a/b;
-    cout<<"Your divisionision is = \n" << sum <<endl;
+    cout<<"Your divisionision is = \n" << a/b<<endl;
 }
 
 int main(){
